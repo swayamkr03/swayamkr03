@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="290" viewBox="0 0 1100 290" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Swayam — Software Developer</title>
+  <desc id="desc">Backend, full-stack, and applied AI. A circuit-inspired motif connects interface, API, data, and AI.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#d5e5ef" stroke-width=".7"/></pattern>
+    <linearGradient id="accent" x1="150" y1="0" x2="990" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#087b95"/><stop offset="1" stop-color="#0284c7"/></linearGradient>
+    <radialGradient id="wash"><stop stop-color="#dbf4fc" stop-opacity=".9"/><stop offset="1" stop-color="#f3f9fd" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="1" y="1" width="1098" height="288" rx="20" fill="#f3f9fd" stroke="#bdd5e5"/>
+  <rect x="1" y="1" width="1098" height="288" rx="20" fill="url(#grid)" opacity=".75"/>
+  <ellipse cx="550" cy="152" rx="410" ry="195" fill="url(#wash)"/>
+  <path d="M0 146H106L139 113H190M1100 146H994L961 179H910M72 46H204M896 244H1028" stroke="#bdd5e5" stroke-width="1.5"/>
+  <circle cx="190" cy="113" r="4" fill="#087b95"/><circle cx="910" cy="179" r="4" fill="#087b95"/>
+  <g fill="#4b667d" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2">
+    <text x="34" y="31">SWAYAMKR03 / ENGINEERING</text>
+    <text x="1066" y="31" text-anchor="end">CODE · DATA · SYSTEMS</text>
+  </g>
+  <text x="550" y="82" text-anchor="middle" fill="#087b95" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="5">SOFTWARE DEVELOPER</text>
+  <text x="550" y="158" text-anchor="middle" fill="#11283d" font-family="'Segoe UI', Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-3">Swayam<tspan fill="url(#accent)">.</tspan></text>
+  <text x="550" y="190" text-anchor="middle" fill="#4b667d" font-family="'Segoe UI', Arial, sans-serif" font-size="18" letter-spacing="1.5">BACKEND / FULL STACK / APPLIED AI</text>
+  <path d="M380 237H720" stroke="#bdd5e5" stroke-width="2"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="12" text-anchor="middle" letter-spacing="1">
+    <rect x="314" y="221" width="112" height="32" rx="16" fill="#e7f1f8" stroke="#bdd5e5"/>
+    <rect x="448" y="221" width="74" height="32" rx="16" fill="#e7f1f8" stroke="#bdd5e5"/>
+    <rect x="550" y="221" width="84" height="32" rx="16" fill="#e7f1f8" stroke="#bdd5e5"/>
+    <rect x="662" y="221" width="122" height="32" rx="16" fill="#e7f1f8" stroke="#bdd5e5"/>
+    <text x="370" y="241" fill="#4b667d">INTERFACE</text>
+    <text x="485" y="241" fill="#087b95">API</text>
+    <text x="592" y="241" fill="#087b95">DATA</text>
+    <text x="723" y="241" fill="#4b667d">INTELLIGENCE</text>
+  </g>
+</svg>
