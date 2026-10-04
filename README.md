@@ -187,8 +187,8 @@ Want to explore the code or discuss a project?
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-swayamkr03-163047?style=for-the-badge&logo=github&logoColor=67E8F9)](https://github.com/swayamkr03)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-ID)
-[![Email](https://img.shields.io/badge/Email-Say%20hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swayam-kumar-970668247)
+[![Email](https://img.shields.io/badge/Email-Say%20hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:swayamkumar312@gmail.com)
 
 [Back to top ↑](#top)
 
