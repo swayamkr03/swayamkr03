@@ -6,7 +6,7 @@
 
 I build APIs, full-stack applications, and AI workflows that turn data into usable software.
 
-![Profile views](https://komarev.com/ghpvc/?username=swayamkr03&label=Profile%20views&color=0891b2&style=flat-square)
+![Profile views](https://hits.sh/github.com/swayamkr03.svg?style=flat-square&label=Profile%20views&color=0891b2)
 
 [![Python](https://img.shields.io/badge/Python-163047?style=flat-square&logo=python&logoColor=67E8F9)](#tech-stack)
 [![FastAPI](https://img.shields.io/badge/FastAPI-163047?style=flat-square&logo=fastapi&logoColor=67E8F9)](#tech-stack)
