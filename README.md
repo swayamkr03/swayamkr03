@@ -1,21 +1,21 @@
 <div align="center">
 
-<img src="assets/hero-dark.svg" alt="Swayam — Software Developer. Backend, full-stack, and applied AI." width="100%" />
+<img src="assets/hero-dark.svg" alt="Swayam Kumar — Software Engineer focused on automation, data, AI, and DevOps." width="100%" />
 
-**Software Developer · Backend & Applied AI**
+**Software Engineer · Automation · Data & AI · DevOps**
 
-I build APIs, full-stack applications, and AI workflows that turn data into usable software.
+I build reliable backend systems, data products, and automated cloud-delivery workflows.
 
 ![Profile views](https://hits.sh/github.com/swayamkr03.svg?style=flat-square&label=Profile%20views&color=0891b2)
 
 [![Python](https://img.shields.io/badge/Python-163047?style=flat-square&logo=python&logoColor=67E8F9)](#tech-stack)
 [![FastAPI](https://img.shields.io/badge/FastAPI-163047?style=flat-square&logo=fastapi&logoColor=67E8F9)](#tech-stack)
-[![React](https://img.shields.io/badge/React-163047?style=flat-square&logo=react&logoColor=67E8F9)](#tech-stack)
-[![Node.js](https://img.shields.io/badge/Node.js-163047?style=flat-square&logo=nodedotjs&logoColor=67E8F9)](#tech-stack)
-[![PyTorch](https://img.shields.io/badge/PyTorch-163047?style=flat-square&logo=pytorch&logoColor=67E8F9)](#tech-stack)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-163047?style=flat-square&logo=postgresql&logoColor=67E8F9)](#tech-stack)
+[![Power BI](https://img.shields.io/badge/Power_BI-163047?style=flat-square&logo=powerbi&logoColor=67E8F9)](#tech-stack)
 [![Docker](https://img.shields.io/badge/Docker-163047?style=flat-square&logo=docker&logoColor=67E8F9)](#tech-stack)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-163047?style=flat-square&logo=kubernetes&logoColor=67E8F9)](#tech-stack)
 
-[Selected work](#selected-work) · [Stack](#tech-stack) · [About](#about-me) · [Activity](#activity) · [Connect](#connect)
+[Selected work](#selected-work) · [Stack](#tech-stack) · [About](#about-me) · [Experience](#experience) · [Activity](#activity) · [Connect](#connect)
 
 </div>
 
@@ -27,118 +27,112 @@ I build APIs, full-stack applications, and AI workflows that turn data into usab
 <tr>
 <td width="50%" valign="top">
 
-### [01 / DispatchGrid](https://github.com/swayamkr03/DispatchGrid)
-**Backend systems · Shipment management**
+### [01 / Customer Churn Analytics](https://github.com/swayamkr03/Customer_churn_analysis_dashboard)
 
-A shipment platform with seller and delivery-partner dashboards.
-- Assigns delivery partners by ZIP coverage and available capacity
-- Queues email notifications with Celery
-- Uses Redis for JWT revocation
+**Data, machine learning & business intelligence**
 
-`FastAPI` `PostgreSQL` `Redis` `Celery` `React` `Docker`
+An end-to-end churn analysis and prediction workflow built around 7,043 customer records and 21 attributes.
 
-[**Explore repository →**](https://github.com/swayamkr03/DispatchGrid)
+- Compared classification models and achieved **0.8432 ROC-AUC**
+- Generated customer-level risk scores and retention insights
+- Built PostgreSQL, Power BI, and Streamlit reporting workflows
+
+**Python · Pandas · scikit-learn · PostgreSQL · Power BI · Streamlit**
+
+[**Live dashboard →**](https://customerchurn-dashboard.streamlit.app/) · [**Repository →**](https://github.com/swayamkr03/Customer_churn_analysis_dashboard)
 
 </td>
 <td width="50%" valign="top">
 
-### [02 / RAG Service](https://github.com/swayamkr03/RAG_SERVICE)
-**Applied AI · Document retrieval**
+### [02 / DispatchGrid](https://github.com/swayamkr03/DispatchGrid)
 
-Upload PDFs and ask questions grounded in their contents.
-- Chunks documents, creates embeddings, retrieves passages with Qdrant
-- Connects ingestion workflows to an API and a browser interface
+**Backend systems · Asynchronous shipment management**
 
-`Python` `FastAPI` `Qdrant` `OpenAI` `LlamaIndex` `Inngest`
+A shipment platform with seller and delivery-partner workflows.
 
-[**Explore repository →**](https://github.com/swayamkr03/RAG_SERVICE)
+- Assigns partners using ZIP-code coverage and available capacity
+- Moves transactional email to Celery and Redis workers
+- Protects APIs with role-based JWT access and token revocation
+
+**FastAPI · PostgreSQL · Redis · Celery · React · Docker**
+
+[**Explore repository →**](https://github.com/swayamkr03/DispatchGrid)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [03 / DevConnector](https://github.com/swayamkr03/DevConnector)
-**Full-stack · Developer community**
+### [03 / DeployFlow](https://github.com/swayamkr03/DeployFlow)
 
-A developer social app built through a MERN course project.
-- Profiles bring together experience, education, and GitHub repositories
-- JWT-protected routes support posts, comments, likes, and ownership checks
+**DevOps · Kubernetes GitOps delivery**
 
-`React` `Redux` `Node.js` `Express` `MongoDB`
+A containerized Flask application delivered through a two-node Kubernetes cluster on AWS EC2.
 
-[**Explore repository →**](https://github.com/swayamkr03/DevConnector)
+- Builds and publishes commit-addressable images with GitHub Actions
+- Updates manifests and synchronizes deployments through Argo CD
+- Monitors workloads and nodes with Prometheus and Grafana
+
+**Flask · Docker · Kubernetes · GitHub Actions · Argo CD · Helm · AWS**
+
+[**Explore repository →**](https://github.com/swayamkr03/DeployFlow)
 
 </td>
 <td width="50%" valign="top">
 
-### [04 / BERT Sentiment](https://github.com/swayamkr03/bert-sentiment-analysis)
-**NLP · Model training to interface**
+### [04 / RAG Service](https://github.com/swayamkr03/RAG_SERVICE)
 
-A text sentiment classifier with an interactive Streamlit interface.
-- Fine-tunes BERT for positive and negative sentiment
-- Loads a Hugging Face checkpoint and visualizes predicted probabilities
+**Applied AI · Document retrieval**
 
-`Python` `PyTorch` `Transformers` `Hugging Face` `Streamlit`
+Upload PDFs and ask questions grounded in their contents.
 
-[**Explore repository →**](https://github.com/swayamkr03/bert-sentiment-analysis)
+- Chunks documents, creates embeddings, and retrieves passages with Qdrant
+- Connects asynchronous ingestion to a FastAPI service and browser interface
+- Preserves source context for more useful generated answers
+
+**Python · FastAPI · Qdrant · OpenAI · LlamaIndex · Inngest**
+
+[**Explore repository →**](https://github.com/swayamkr03/RAG_SERVICE)
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>Explore more: data engineering, analytics, APIs & local AI</b></summary>
+<summary><b>More projects</b></summary>
 <br>
 
-**[Customer ETL Pipeline](https://github.com/swayamkr03/ETL_Pipeline)**
-Transforms JSONPlaceholder sample API data into SQLite tables, computes customer activity metrics, and exports data-quality reports.
-`Python` · `Pandas` · `SQLite` · `SQL`
-
-**[Customer Churn Analysis](https://github.com/swayamkr03/Customer_churn_analysis_dashboard)**
-Connects model-generated churn scores to customer risk segments, SQL analysis, and interactive dashboards.
-`Scikit-learn` · `PostgreSQL` · `Power BI` · `Streamlit`
-
-**[SQL AI Agent](https://github.com/swayamkr03/SQL_AI_Agent)**
-Queries a SQLite database through a local Llama model, showing the generated SQL alongside a natural-language answer.
-`Python` · `LangChain` · `Ollama` · `Llama 3.2`
-
-**[FastAPI Media App](https://github.com/swayamkr03/FastAPI_media_app)**
-Media-sharing app with JWT authentication, async SQLAlchemy, ImageKit uploads, protected post deletion, and a Jinja2 frontend.
-`FastAPI` · `SQLAlchemy` · `Jinja2`
+- [**DevConnector**](https://github.com/swayamkr03/DevConnector) — MERN developer community with profiles, posts, comments, likes, and JWT-protected routes
+- [**BERT Sentiment Analysis**](https://github.com/swayamkr03/bert-sentiment-analysis) — PyTorch and Transformers text classifier with a Streamlit interface
+- [**LeetCode Solutions**](https://github.com/swayamkr03/Leetcode_solutions) — Java, SQL, data structures, and algorithm practice
 
 </details>
 
 ## Tech stack
 
-<div align="center">
-
 | Area | Technologies I work with |
-| --- | --- |
-| **Languages** | Python · Java · JavaScript · TypeScript · SQL |
-| **Frontend** | React · Redux · Angular · HTML · CSS |
-| **Backend** | FastAPI · Node.js · Express · Spring Boot · SQLAlchemy |
-| **AI / ML** | PyTorch · Transformers · scikit-learn · LangChain · LlamaIndex · Ollama |
-| **Data & storage** | PostgreSQL · MongoDB · SQLite · Redis · Qdrant · Pandas |
-| **Tools & delivery** | Git · Docker · Docker Compose · Streamlit · Power BI |
-
-</div>
+|---|---|
+| **Languages & automation** | Python · Java · JavaScript · TypeScript · SQL · Bash |
+| **Backend & integration** | FastAPI · Flask · Node.js · Express · Spring Boot · RabbitMQ · Celery |
+| **Data & BI** | PostgreSQL · MongoDB · Redis · Pandas · Power BI · Excel · Streamlit · Plotly |
+| **AI / ML** | scikit-learn · PyTorch · Transformers · RAG · Qdrant · LangChain · LlamaIndex |
+| **Cloud & delivery** | AWS · Docker · Kubernetes · GitHub Actions · Argo CD · Helm · Prometheus · Grafana · Git |
 
 ## About me
 
-I'm a Computer & Communication Engineering graduate who enjoys connecting the pieces of an application: the interface, API, database, and the model behind it. My projects explore authentication, background jobs, document retrieval, and making model outputs useful in a web app.
+I am a Computer & Communication Engineering graduate interested in turning operational problems into dependable software. My work spans backend APIs, asynchronous processing, data analysis, machine-learning workflows, and cloud-native delivery.
 
-I'm interested in **backend engineering, full-stack development, NLP/LLM applications, and data pipelines**.
+I enjoy building complete systems: from data preparation and business-facing dashboards to authenticated services, background workers, automated deployments, and production monitoring.
 
-<details>
-<summary><b>Experience</b></summary>
+## Experience
+
+<details open>
+<summary><b>Jio Platforms Limited — Backend Engineering Intern</b></summary>
 <br>
 
-**Jio Platforms Limited — Backend & enterprise application development**
-Work involving Angular, TypeScript, Node.js, Express.js, NLP, and LLM-related workflows.
-
-**Reliance Jio — Internship**
-Worked on LTE/VoLTE core networks.
+- Automated document conversion, preprocessing, and cloud-storage workflows with Node.js and Express, supporting thousands of assets each day
+- Engineered RabbitMQ background services with Redis caching, workflow tracking, SLA monitoring, error handling, and structured logs
+- Improved operational visibility and reliability across asynchronous processing pipelines
 
 </details>
 
@@ -146,15 +140,13 @@ Worked on LTE/VoLTE core networks.
 <summary><b>Currently learning</b></summary>
 <br>
 
-- **Java backend development:** Spring MVC, Spring Security, and JPA through my [Spring Boot todo app](https://github.com/swayamkr03/Java_Backend_Todo_list).
-- **System design:** service boundaries, background processing, and containerized development through DispatchGrid.
-- **Data and AI workflows:** ETL validation, retrieval pipelines, and local LLM applications.
+Business and financial analytics · System design · Cloud-native automation · Production observability
 
 </details>
 
 ## Activity
 
-My public work spans application builds, AI experiments, and [Java, SQL, and algorithm practice](https://github.com/swayamkr03/Leetcode_solutions).
+My public work spans backend engineering, automation, analytics, applied AI, DevOps, and [Java, SQL, and algorithm practice](https://github.com/swayamkr03/Leetcode_solutions).
 
 <div align="center">
 
@@ -182,7 +174,7 @@ My public work spans application builds, AI experiments, and [Java, SQL, and alg
 
 ## Connect
 
-Want to explore the code or discuss a project?
+Want to explore the code, discuss a project, or collaborate?
 
 <div align="center">
 
