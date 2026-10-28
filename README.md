@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-dark.svg" alt="Swayam Kumar — Software Engineer focused on automation, data, AI, and DevOps." width="100%" />
+<h1>Swayam Kumar</h1>
 
 **Software Engineer · Automation · Data & AI · DevOps**
 
